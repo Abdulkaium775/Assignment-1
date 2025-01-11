@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
 }
-img{
+
+img {
     max-width: 100%;
 }
-.landing-page{
+
+.landing-page {
     width: 1200px;
     /* background: #222; */
     margin: auto;
 }
-.navbar{
+
+.navbar {
     max-width: 100%;
     /* background-color: red; */
     display: flex;
@@ -22,12 +26,14 @@ img{
     align-items: center;
     padding: 15px;
 }
-.navbar-title{
+
+.navbar-title {
     font-weight: bold;
     font-size: 32px;
-  
+
 }
-.login-btn{
+
+.login-btn {
     padding: 15px 30px;
     border-radius: 8px;
     border-color: #006A50;
@@ -39,34 +45,38 @@ img{
 
 /* hero section */
 
-.hero{
+.hero {
     width: 100%;
     /* padding: 10px; */
     background-color: #c6e4d6;
     border-radius: 9px;
     margin: 80px 0;
 }
-.hero-container{
+
+.hero-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
 }
 
-.left-content{
+.left-content {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.hero-subTitle{
+
+.hero-subTitle {
     color: #6a7972;
 }
+
 .hero-title {
     font-size: 30px;
     margin-bottom: 21px;
 }
-.hero-btn{
+
+.hero-btn {
     width: fit-content;
     padding: 16px 27px;
     background-color: #006A50;
@@ -76,28 +86,34 @@ img{
     font-weight: 600;
     color: white;
 }
-.right-content{
+
+.right-content {
     width: 50%;
     display: flex;
     justify-content: end;
 }
-.pillar{
+
+/* pillar section */
+.pillar {
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin: 80px 0;
 }
-.pillar-title{
+
+.pillar-title {
     font-size: 50px;
     margin-bottom: 10px;
     font-weight: 500;
     letter-spacing: -1px;
 }
-.pillar-card-wrapper{
+
+.pillar-card-wrapper {
     display: flex;
     gap: 20px;
 }
-.pillar-card{
+
+.pillar-card {
     width: 237px;
     padding: 20px;
     border-radius: 10px;
@@ -107,15 +123,117 @@ img{
     align-items: start;
     gap: 10px;
 }
-.pillar-img{
+
+.pillar-img {
     width: 45px;
 }
-.pillar-card-title{
+
+.pillar-card-title {
     font-size: 24px;
     font-weight: 500;
     color: #3e3e3e;
 }
-.pillar-desc{
+
+.pillar-desc {
     font-size: 14px;
     color: #808080;
+}
+
+/* vision section */
+
+.vision {
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vision-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vision-title {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.vision-desc {
+    font-size: 15px;
+    color: #545454;
+}
+
+/* vistion card */
+.vision-card-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.vision-card {
+    width: 319px;
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #d5e1f5;
+    border-radius: 10px;
+}
+
+.vision-img {
+    width: 60px;
+}
+
+.vision-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333936;
+}
+
+.vision-card-desc {
+    font-size: 14px;
+}
+
+.vision-card-btn {
+
+    width: 111px;
+
+    padding: 10px 9px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    color: white;
+
+    font-weight: 600;
+
+    margin-top: 35px;
+}
+#vision-card-1{
+    background-color: #d5e1f5;
+}
+#vision-card-1 .vision-card-btn{
+    margin-top: 20px;
+    background-color: #5490f5;
+}
+
+#vision-card-2{
+    background-color: #c6e4d6;
+}
+
+#vision-card-2 .vision-card-btn{
+    background-color: #09a15c;
+}
+
+
+#vision-card-3{
+    background-color:#f7ebcf
+}
+
+#vision-card-3 .vision-card-btn{
+    background-color: #ffc239;
 }
