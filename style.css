@@ -11,11 +11,14 @@
 img {
     max-width: 100%;
 }
-
+body{
+    background-color: #f5f5f5;
+}
 .landing-page {
     width: 1200px;
     /* background: #222; */
     margin: auto;
+    
 }
 
 .navbar {
@@ -122,6 +125,7 @@ img {
     flex-direction: column;
     align-items: start;
     gap: 10px;
+    background-color: #ffffff;
 }
 
 .pillar-img {
@@ -236,4 +240,261 @@ img {
 
 #vision-card-3 .vision-card-btn{
     background-color: #ffc239;
+}
+
+/* quotes section */
+
+.quotes{
+    margin: 80px 0;
+}
+.quotes-content{
+    background-image: url("./assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 30px 10px;
+    width: fit-content;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 14px;
+    background-color: #ffffff;
+}
+.quotes-text{
+    font-size: 16px;
+    color: #3e3e3e;
+}
+.quotes-owner{
+    font-size: 20px;
+    font-weight: 600;
+    color: #3e3e3e;
+}
+.owner-title{
+    font-size: 12px;
+    margin-top: -5px;
+    color: #777777;
+}
+
+/* opinion  */
+
+.opinion {
+    margin: 80px 0;
+}
+
+.opinion-wrapper {
+}
+
+.opinion-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.opinion-box {
+    border: 1px solid black;
+}
+
+.opinion-title {
+}
+
+.opinion-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.opinion-desc p {
+    width: 85%;
+    border-right: 1px solid black;
+    padding: 30px 0px;
+}
+
+.opinion-box-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 20px 20px;
+    background-color: #c6e4d6;
+
+}
+.opinion-select {
+    padding: 15px;
+}
+
+.opinion-box-title h3 {
+    font-weight: 700;
+}
+
+.opinion-select button {
+    background-image: url("./assets/arrow-btn.png");
+    background-repeat: no-repeat;
+    background-position: 85px 2px;
+    background-size: contain;
+    padding: 10px 25px;
+    font-size: 13px;
+    background-color: #c6e4d6;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#opinion-desc-1{
+    border-bottom: 1px solid black;
+}
+#opinion-desc-2{
+    border-bottom: 1px solid black;
+}
+#opinion-desc-3{}
+.recent-news {
+    margin: 80px 0;
+}
+
+.recent-news-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recent-news-title-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recent-news-title-content h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.recent-news-title-content p {
+    line-height: 30px;
+}
+
+.single-recent-news-desc-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.single-recent-news-desc-content {
+    background-color: #ffffff;
+    padding: 30px;
+    display: flex;
+    gap: 24px;
+    border-radius: 10px;
+}
+
+.recent-news-desc-img {
+    width: 930px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.single-recent-news-desc-content-catainer {display: flex;flex-direction: column;gap: 15px;}
+
+h3.single-recent-news-desc-content-title {
+    font-size: 30px;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+.single-recent-news-desc-content-img {
+}
+
+p.single-recent-news-desc-content-date {}
+
+.single-recent-news-desc-content-button {
+    width: 130px;
+    padding: 12px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #006a50;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+#single-recent-news-2{
+flex-direction: row-reverse;
+}
+/* donate */
+
+.donate {
+    margin: 80px 0;
+}
+
+.donate-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 82%;
+    margin: auto;
+}
+
+.donate-title-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.donate-title-content h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.donate-title-content p {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.donate-card {
+    width: 230px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    border: 1px solid #dbdbdb;
+}
+
+.donate-card h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #333936;
+}
+#donate-card-2{
+    background-color: #c6e4d6;
+}
+.donate-card-wrapper {
+    display: flex;
+    gap: 20px;
+}
+.donate-amount {
+    margin: auto;
+    width: 100%;
+    background: red;
+}
+
+.donate-amount input {
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 18px 0px;
+    font-size: 20px;
+    color: #c9c9c9;
+}
+.donate-done-btn {
+    width: 130px;
+    padding: 12px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #006a50;
+    border-radius: 6px;
+    margin-top: 30px;
 }
