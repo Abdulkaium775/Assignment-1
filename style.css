@@ -53,7 +53,7 @@ body{
     /* padding: 10px; */
     background-color: #c6e4d6;
     border-radius: 9px;
-    margin: 80px 0;
+    margin: 30px 0;
 }
 
 .hero-container {
@@ -281,11 +281,8 @@ body{
     margin: 80px 0;
 }
 
-.opinion-wrapper {
-}
-
 .opinion-content {
-    padding: 20px;
+    padding: 33px;
     background-color: #fff;
     border-radius: 10px;
 }
@@ -294,8 +291,7 @@ body{
     border: 1px solid black;
 }
 
-.opinion-title {
-}
+.opinion-title {font-size: 42px;margin-bottom: 10px;font-weight: 700;letter-spacing: -1px;}
 
 .opinion-desc {
     display: flex;
@@ -343,7 +339,7 @@ body{
 #opinion-desc-2{
     border-bottom: 1px solid black;
 }
-#opinion-desc-3{}
+
 .recent-news {
     margin: 80px 0;
 }
@@ -396,11 +392,6 @@ h3.single-recent-news-desc-content-title {
     letter-spacing: -1px;
     font-weight: 500;
 }
-
-.single-recent-news-desc-content-img {
-}
-
-p.single-recent-news-desc-content-date {}
 
 .single-recent-news-desc-content-button {
     width: 130px;
@@ -497,4 +488,100 @@ flex-direction: row-reverse;
     background-color: #006a50;
     border-radius: 6px;
     margin-top: 30px;
+}
+/* subcribe */
+
+
+.subcribe {
+    margin: 80px 0;
+    max-width: 100%;
+    padding: 100px;
+    background-color: #c6e4d6;
+    border-radius: 10px;
+}
+
+.subcribe-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.subcribe-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subcribe-desc {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+}
+
+.subcribe-input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.subcribe-input input {
+    padding: 20px 40px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #c0c0c0;
+}
+
+.subcribe-input button {
+    padding: 20px 44px;
+    position: absolute;
+    right: -1px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #006a50;
+    color: white;
+    font-size: 18px;
+}
+.subcribe-span-text {
+    color: #464f4b;
+}
+
+/* footer */
+
+
+.footer {
+    background: #ffffff;
+}
+
+.footer-wrapper {
+    width: 75%;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.div-border {
+    height: 1px;
+    width: 100%;
+    background-color: #e7e7e7;
 }
